@@ -5,7 +5,8 @@ const PORT =3000;
 
 app.get("/", (_req, res) => {
     // res.json({message: "Hello from Docker and kubernetes"});
-    res.json({message: "CI TEST SUCCESSFULL"});
+    res.json({message: "CI TEST SUCCESSFULL and this is second commit"});
+    
 
 });
  
